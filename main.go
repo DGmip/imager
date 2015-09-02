@@ -12,7 +12,7 @@ import (
 func  main() {
 
   arg := os.Args
-  cmd := exec.Command(arg[1])
+  cmd := exec.Command("curl "+arg[1])
   var out bytes.Buffer
   cmd.Stdout = &out
   err := cmd.Run();if err != nil { log.Fatal(err) }
