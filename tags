@@ -1,0 +1,3 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+main	/home/ben/gocode/src/github.com/dgmip/imager/main.go	/^func  main() {$/;"	f	language:Go
+main	/home/ben/gocode/src/github.com/dgmip/imager/main.go	/^package main$/;"	p	language:Go
